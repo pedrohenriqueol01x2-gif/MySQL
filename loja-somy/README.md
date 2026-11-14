@@ -20,6 +20,6 @@ O script cria o banco e as tabelas, carrega dados, faz alterações e consultas 
 
 ### Pontos de revisão
 
-- O script contém registros com **nomes, CPFs, telefones, e-mails e endereços**. Confirme que são inteiramente fictícios ou autorizados antes de uma publicação pública.
+- Os nomes, CPFs, CNPJs, telefones, e-mails e endereços de exemplo foram substituídos por valores **claramente fictícios**. CPFs e CNPJs são deliberadamente inválidos; os e-mails usam `example.com`. As referências por CNPJ foram atualizadas de forma consistente. **A versão anterior ainda pode existir no histórico de commits do GitHub**, portanto essa alteração não apaga a versão antiga do histórico.
 - Após redefinir o estoque de alguns produtos para zero, o script tenta inserir uma venda de um desses produtos após criar uma trigger de validação de estoque. **Essa inserção tende a falhar por design**, demonstrando a regra de proteção.
 - Não houve execução nem validação integral em MySQL nesta revisão.
