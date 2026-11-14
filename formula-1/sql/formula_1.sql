@@ -231,7 +231,7 @@ WHERE cod_pais = '4';
 
 SELECT TRUNCATE(AVG(salario), 0)AS"Média salarial dos pilotos (Alemanha)"
 FROM tb_pilotos
-WHERE cod_país = '5';
+WHERE cod_pais = '5';
 
 SELECT TRUNCATE(AVG(salario), 0)AS"Média salarial dos pilotos (Países Baixos)"
 FROM tb_pilotos
