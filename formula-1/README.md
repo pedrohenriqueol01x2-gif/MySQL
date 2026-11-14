@@ -14,7 +14,7 @@ Exercício de banco de dados relacional envolvendo países, equipes, pilotos, co
 
 ## Pontos de revisão antes de executar
 
-- A consulta da média salarial da Alemanha usa `cod_país`, mas o nome correto da coluna é `cod_pais`, o que provoca erro nessa consulta.
+- O erro de digitação `cod_país` na consulta da média salarial da Alemanha foi corrigido para `cod_pais`.
 - A tabela `tb_participante` define `num_piloto` como `AUTO_INCREMENT`, embora a coluna seja chave estrangeira para o identificador já existente em `tb_pilotos`; convém revisar esse desenho.
 - Nas consultas das médias salariais, os rótulos de França e Itália estão trocados em relação aos códigos de países inseridos.
 - A consulta final pede valores distintos de salários, mas lista nomes e salários sem `DISTINCT`.
